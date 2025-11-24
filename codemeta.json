@@ -1,0 +1,168 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "PsyChroMAP",
+  "description": "A comprehensive toolkit for analyzing and visualizing climate data through psychrometric charts. This package enables the transformation of temperature and humidity time series into insightful visual representations, allowing users to identify patterns, frequencies, and statistical distributions of environmental conditions. Key features include the ability to plot data using either quantile-based analysis or occurrence frequency counts, providing multiple perspectives for climate data interpretation. The tool supports both static visualizations for detailed analysis and animated sequences for tracking seasonal or temporal variations, making it invaluable for HVAC design, building performance analysis, climate research, environmental comfort studies, pests proliferation analysis, and biomes change monitoring. The package offers customizable visualization options with various color palettes, quantile thresholds, and animation intervals, catering to both research and presentation needs while maintaining scientific rigor in psychrometric analysis.",
+  "name": "PsyChroMAP: Psychrometric Map Visual Explorer",
+  "codeRepository": "https://github.com/Ouroboro/PsyChroMAP",
+  "issueTracker": "https://github.com/Ouroboro/PsyChroMAP/issues",
+  "license": "GPL-3.0-or-later",
+  "version": "0.1.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Vladimiro Andrea",
+      "familyName": "Boselli",
+      "email": "boselli.v@irea.cnr.it",
+      "@id": "https://orcid.org/0000-0003-2985-6358"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Paolo",
+      "familyName": "Tagliolato Acquaviva d'Aragona",
+      "email": "tagliolato.p@cnr.it",
+      "@id": "https://orcid.org/0000-0002-0261-313X"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Alessandro",
+      "familyName": "Oggioni",
+      "email": "oggioni.a@irea.cnr.it",
+      "@id": "https://orcid.org/0000-0002-7997-219X"
+    }
+  ],
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Vladimiro Andrea",
+      "familyName": "Boselli",
+      "email": "boselli.v@irea.cnr.it",
+      "@id": "https://orcid.org/0000-0003-2985-6358"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Vladimiro Andrea",
+      "familyName": "Boselli",
+      "email": "boselli.v@irea.cnr.it",
+      "@id": "https://orcid.org/0000-0003-2985-6358"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 3.5.0"
+    },
+    "2": {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    "3": {
+      "@type": "SoftwareApplication",
+      "identifier": "lubridate",
+      "name": "lubridate",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=lubridate"
+    },
+    "4": {
+      "@type": "SoftwareApplication",
+      "identifier": "gifski",
+      "name": "gifski",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=gifski"
+    },
+    "5": {
+      "@type": "SoftwareApplication",
+      "identifier": "data.table",
+      "name": "data.table",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=data.table"
+    },
+    "6": {
+      "@type": "SoftwareApplication",
+      "identifier": "ncdf4",
+      "name": "ncdf4",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ncdf4"
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "0KB",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "datePublished": "2025",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": ["Vladimiro", "Andrea"],
+          "familyName": "Boselli"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Paolo",
+          "familyName": "Tagliolato"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Alessandro",
+          "familyName": "Oggioni"
+        }
+      ],
+      "name": "Psychrometric Map Visual Explorer",
+      "description": "R package version v0.1.0"
+    }
+  ]
+}

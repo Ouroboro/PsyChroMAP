@@ -1,0 +1,16 @@
+citHeader("To cite the 'PsyChroMAP' package in publications use:")
+
+year <- format(Sys.Date(), "%Y")
+
+citEntry(entry = "Misc",
+         title = "Psychrometric Map Visual Explorer",
+         author = personList(as.person("Vladimiro Andrea Boselli"),
+                             as.person("Paolo Tagliolato"),
+                             as.person("Alessandro Oggioni")),
+         year = 2025,
+         note = paste("R package version", "v0.1.0"),
+         textVersion =
+           paste("Vladimiro Andrea Boselli, Paolo Tagliolato, Alessandro Oggioni.",
+                 "(2025). Psychrometric Map Visual Explorer (v0.1.0).",
+                 "Zenodo. xxx")
+)

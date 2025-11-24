@@ -1,0 +1,200 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "PsyChroMAP" in publications use:'
+type: software
+title: 'PsyChroMAP: Psychrometric Map Visual Explorer'
+version: 0.1.0
+abstract: A comprehensive toolkit for analyzing and visualizing climate data through
+  psychrometric charts. This package enables the transformation of temperature and
+  humidity time series into insightful visual representations, allowing users to identify
+  patterns, frequencies, and statistical distributions of environmental conditions.
+  Key features include the ability to plot data using either quantile-based analysis
+  or occurrence frequency counts, providing multiple perspectives for climate data
+  interpretation. The tool supports both static visualizations for detailed analysis
+  and animated sequences for tracking seasonal or temporal variations, making it invaluable
+  for HVAC design, building performance analysis, climate research, environmental
+  comfort studies, pests proliferation analysis, and biomes change monitoring. The
+  package offers customizable visualization options with various color palettes, quantile
+  thresholds, and animation intervals, catering to both research and presentation
+  needs while maintaining scientific rigor in psychrometric analysis.
+authors:
+- family-names: Boselli
+  given-names: Vladimiro Andrea
+  email: boselli.v@irea.cnr.it
+  orcid: https://orcid.org/0000-0003-2985-6358
+- family-names: Tagliolato Acquaviva d'Aragona
+  given-names: Paolo
+  email: tagliolato.p@cnr.it
+  orcid: https://orcid.org/0000-0002-0261-313X
+- family-names: Oggioni
+  given-names: Alessandro
+  email: oggioni.a@irea.cnr.it
+  orcid: https://orcid.org/0000-0002-7997-219X
+preferred-citation:
+  type: generic
+  title: Psychrometric Map Visual Explorer
+  authors:
+  - family-names: Boselli
+    given-names: Vladimiro Andrea
+    email: boselli.v@irea.cnr.it
+    orcid: https://orcid.org/0000-0003-2985-6358
+  - family-names: Tagliolato
+    given-names: Paolo
+  - family-names: Oggioni
+    given-names: Alessandro
+    email: oggioni.a@irea.cnr.it
+    orcid: https://orcid.org/0000-0002-7997-219X
+  year: '2025'
+  notes: R package version v0.1.0
+repository-code: https://github.com/Ouroboro/PsyChroMAP
+url: https://github.com/Ouroboro/PsyChroMAP
+contact:
+- family-names: Boselli
+  given-names: Vladimiro Andrea
+  email: boselli.v@irea.cnr.it
+  orcid: https://orcid.org/0000-0003-2985-6358
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2025'
+  version: '>= 3.5.0'
+- type: software
+  title: ggplot2
+  abstract: 'ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics'
+  notes: Imports
+  url: https://ggplot2.tidyverse.org
+  repository: https://CRAN.R-project.org/package=ggplot2
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+    orcid: https://orcid.org/0000-0003-4757-117X
+  - family-names: Chang
+    given-names: Winston
+    orcid: https://orcid.org/0000-0002-1576-2126
+  - family-names: Henry
+    given-names: Lionel
+  - family-names: Pedersen
+    given-names: Thomas Lin
+    email: thomas.pedersen@posit.co
+    orcid: https://orcid.org/0000-0002-5147-4711
+  - family-names: Takahashi
+    given-names: Kohske
+  - family-names: Wilke
+    given-names: Claus
+    orcid: https://orcid.org/0000-0002-7470-9261
+  - family-names: Woo
+    given-names: Kara
+    orcid: https://orcid.org/0000-0002-5125-4188
+  - family-names: Yutani
+    given-names: Hiroaki
+    orcid: https://orcid.org/0000-0002-3385-7233
+  - family-names: Dunnington
+    given-names: Dewey
+    orcid: https://orcid.org/0000-0002-9415-4582
+  - family-names: Brand
+    given-names: Teun
+    name-particle: van den
+    orcid: https://orcid.org/0000-0002-9335-7468
+  year: '2025'
+  doi: 10.32614/CRAN.package.ggplot2
+- type: software
+  title: lubridate
+  abstract: 'lubridate: Make Dealing with Dates a Little Easier'
+  notes: Imports
+  url: https://lubridate.tidyverse.org
+  repository: https://CRAN.R-project.org/package=lubridate
+  authors:
+  - family-names: Spinu
+    given-names: Vitalie
+    email: spinuvit@gmail.com
+  - family-names: Grolemund
+    given-names: Garrett
+  - family-names: Wickham
+    given-names: Hadley
+  year: '2025'
+  doi: 10.32614/CRAN.package.lubridate
+- type: software
+  title: gifski
+  abstract: 'gifski: Highest Quality GIF Encoder'
+  notes: Imports
+  url: https://r-rust.r-universe.dev/gifski
+  repository: https://CRAN.R-project.org/package=gifski
+  authors:
+  - family-names: Ooms
+    given-names: Jeroen
+    email: jeroenooms@gmail.com
+    orcid: https://orcid.org/0000-0002-4035-0289
+  - name: Kornel Lesiński
+  - name: Authors of the dependency Rust crates
+  year: '2025'
+  doi: 10.32614/CRAN.package.gifski
+- type: software
+  title: data.table
+  abstract: 'data.table: Extension of `data.frame`'
+  notes: Imports
+  url: https://r-datatable.com
+  repository: https://CRAN.R-project.org/package=data.table
+  authors:
+  - family-names: Barrett
+    given-names: Tyson
+    email: t.barrett88@gmail.com
+    orcid: https://orcid.org/0000-0002-2137-1391
+  - family-names: Dowle
+    given-names: Matt
+    email: mattjdowle@gmail.com
+  - family-names: Srinivasan
+    given-names: Arun
+    email: asrini@pm.me
+  - family-names: Gorecki
+    given-names: Jan
+  - family-names: Chirico
+    given-names: Michael
+    orcid: https://orcid.org/0000-0003-0787-087X
+  - family-names: Hocking
+    given-names: Toby
+    orcid: https://orcid.org/0000-0002-3146-0865
+  - family-names: Schwendinger
+    given-names: Benjamin
+    orcid: https://orcid.org/0000-0003-3315-8114
+  year: '2025'
+  doi: 10.32614/CRAN.package.data.table
+- type: software
+  title: ncdf4
+  abstract: 'ncdf4: Interface to Unidata netCDF (Version 4 or Earlier) Format Data
+    Files'
+  notes: Imports
+  url: https://cirrus.ucsd.edu/~pierce/ncdf/
+  repository: https://CRAN.R-project.org/package=ncdf4
+  authors:
+  - family-names: Pierce
+    given-names: David
+    email: dpierce@ucsd.edu
+    orcid: https://orcid.org/0000-0002-2453-9030
+  year: '2025'
+  doi: 10.32614/CRAN.package.ncdf4
+- type: software
+  title: testthat
+  abstract: 'testthat: Unit Testing for R'
+  notes: Suggests
+  url: https://testthat.r-lib.org
+  repository: https://CRAN.R-project.org/package=testthat
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2025'
+  doi: 10.32614/CRAN.package.testthat
+  version: '>= 3.0.0'
+

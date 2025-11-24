@@ -1,0 +1,31 @@
+Package: PsyChroMAP
+Title: Psychrometric Map Visual Explorer
+Version: 0.1.0
+Authors@R: c(
+    person("Vladimiro Andrea", "Boselli", email = "boselli.v@irea.cnr.it", role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0000-0003-2985-6358")),
+    person("Paolo", "Tagliolato Acquaviva d'Aragona", email = "tagliolato.p@cnr.it", role = c("aut"),
+      comment = c(ORCID = "0000-0002-0261-313X")),
+    person("Alessandro", "Oggioni", email = "oggioni.a@irea.cnr.it", role = c("aut"),
+      comment = c(ORCID = "0000-0002-7997-219X"))
+    )
+Description: A comprehensive toolkit for analyzing and visualizing climate data through psychrometric charts. This package enables the transformation of temperature and humidity time series into insightful visual representations, allowing users to identify patterns, frequencies, and statistical distributions of environmental conditions.
+    Key features include the ability to plot data using either quantile-based analysis or occurrence frequency counts, providing multiple perspectives for climate data interpretation. The tool supports both static visualizations for detailed analysis and animated sequences for tracking seasonal or temporal variations, making it invaluable for HVAC design, building performance analysis, climate research, environmental comfort studies, pests proliferation analysis, and biomes change monitoring.
+    The package offers customizable visualization options with various color palettes, quantile thresholds, and animation intervals, catering to both research and presentation needs while maintaining scientific rigor in psychrometric analysis.
+License: GPL-3.0-or-later
+Encoding: UTF-8
+URL: https://github.com/Ouroboro/PsyChroMAP
+BugReports: https://github.com/Ouroboro/PsyChroMAP/issues
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 3.5.0)
+LazyData: true
+Imports:
+    ggplot2,
+    lubridate,
+    gifski,
+    data.table,
+    ncdf4
+Suggests:
+    testthat (>= 3.0.0)

@@ -1,0 +1,87 @@
+title: PsyChroMAP
+url: https://github.com/Ouroboro/PsyChroMAP
+template:
+  bootstrap: 5
+  params:
+    mathjax: true
+  includes:
+    in_header: |
+      <script defer data-domain="github.org/Ouroboro" src="https://plausible.io/js/plausible.js"></script>
+
+reference:
+- title: Core Functions
+  desc: Main functions for psychrometric analysis and visualization
+  contents:
+  - psyplot
+  - load_data
+  - dataframeplot
+
+- title: Psychrometric Calculations
+  desc: Functions for psychrometric parameter calculations
+  contents:
+  - psychrometric_calculations
+  - sh
+  - wh
+  - add_enthalpy_label
+  - add_psychrometric_lines
+  - create_rh100_mask
+  - maskgrid
+  - roundmax
+
+- title: Data Processing
+  desc: Data loading, filtering and preprocessing functions
+  contents:
+  - filter_by_date_range
+  - filter_by_year
+  - filter_data_by_time
+  - parse_datetime_column
+  - read_netcdf
+  - try_get_nc_var
+  - extract_time_info
+  - seasonal_parameters
+
+- title: Visualization
+  desc: Plot creation and visualization components
+  contents:
+  - create_base_plot
+  - create_static_plot
+  - add_occurrence_counts
+  - add_occurrence_scale
+  - add_quantile_scale
+  - apply_plot_theme
+  - create_plot_title
+
+- title: Animation
+  desc: Functions for creating animated psychrometric charts
+  contents:
+  - create_animation
+  - create_animation_frames
+  - create_gif_animation
+  - cleanup_temp_files
+
+- title: Color Management
+  desc: Color palette and scale management functions
+  contents:
+  - get_color_palette
+  - get_predefined_palette
+  - get_predefined_quantile_palette
+  - get_quantile_palette
+
+- title: Quantile Analysis
+  desc: Statistical analysis and quantile calculations
+  contents:
+  - calculate_quantiles
+  - calculate_global_color_limit
+
+- title: Utility Functions
+  desc: Internal helper and validation functions
+  contents:
+  - validate_inputs
+  - validate_and_calculate_columns
+  - create_line_data
+  - create_line_data2
+
+navbar:
+  structure:
+    left: [reference]
+    right: [github]
