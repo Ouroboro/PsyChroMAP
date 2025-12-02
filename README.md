@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![DOI: 10.5281/zenodo.17793689](https://img.shields.io/badge/doi-10.5281/zenodo.15697261-yellow.svg)](https://doi.org/10.5281/zenodo.17793689)
+[![DOI: 10.5281/zenodo.17793689](https://img.shields.io/badge/doi-10.5281/zenodo.17793689-yellow.svg)](https://doi.org/10.5281/zenodo.17793689)
 <!-- badges: end -->
 
 ## Overview
