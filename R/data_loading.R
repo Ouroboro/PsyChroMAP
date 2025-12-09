@@ -5,7 +5,7 @@
 #'
 #' @param file_path Path to the data file (optional if year is provided)
 #' @param year Specific year to filter data (optional)
-#' @return Standardized data frame with columns: Temperatura, Umidità, SH, DateTime (if available), Year (if available)
+#' @return Standardized data frame with columns: Temperature, Humidity, SH, DateTime (if available), Year (if available)
 #' @export
 load_data <- function(file_path = NULL, year = NULL) {
   if (is.null(file_path) && is.null(year)) {
